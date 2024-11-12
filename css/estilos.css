@@ -236,8 +236,5 @@ header,footer{
 .copyright{
 text-align: right;
 }
-@media screen and { max
-  .footer{
-    display: inline;
-  }
-}
+
+
