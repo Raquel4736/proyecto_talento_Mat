@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+*{
+
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Playwrite DE Grund", cursive;
+}
+h1{
+  font-size: 35px;
+  text-align: center;
+}
+.nombre_grande{
+  font-family: "Playwrite US Trad", cursive;
+  font-size: 70px;
+  color: white;
+}
+.body{
+  background-color: rgb(159, 230, 248);
+}
+
+.header{
+  background-image: url(../assets/imagenes/pexels-julias-torten-und-tortchen-434418-1120464.jpg);
+  background-size: cover;  
+  background-position: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  h1 {
+    color: rgb(8, 30, 46);
+  }
+  .pasteleria{
+    color:rgb(8, 30, 46);
+  }
+  
+  a {
+    color: rgb(16, 17, 18);
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navHeader{
+      width: 50%;
+      .ulHeader{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    
+      }
+    }
+    
+  
+  }
+
+  
+  
+
+}
+
+.somos{
+  font-size: 1rem;
+}
+.carrito{
+height: 300px;
+background: lightblue;
+}
+.formulario{
+padding: 10px;
+}
+.muffins1{
+  margin-top: 50px;
+}
+.Especialidades{
+  a {
+    color: black;
+    font-size: 1rem;
+  display: inline-block;
+
+  }
+}
+.tortas{
+  /*width: 300px;*/
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-image: url(../assets/imagenes/delicious-sweet-cake-with-strawberries-basier-plate.jpg) ;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position:center center;
+}
+.tartas{
+  height: 300px;
+  background-image: url(../assets/imagenes/pexels-solodsha-8104732.jpg);
+  background-size: cover;  
+  background-position: center;
+}
+.muffins{
+  height: 300px;
+  background-image: url(../assets/imagenes/pexels-valeriya-14105.jpg);
+  background-size: cover;  
+  background-position: center;
+}
+
+.tamanioTortas{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+    .items{
+      width: 250px;
+      height: 250px;
+      border: 1px solid gray;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
+    
+      img{
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+      }
+    }
+
+}
+.catering{
+
+  width: 50%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows:0.5fr 0.5fr 0.5fr 0.5fr ;
+  grid-template-areas: " pos1 cpg"
+                        "cp cpg"
+                        "cmg cpg"
+                        "cmg precios";
+                      
+    .postres{
+      grid-area: pos1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }                      
+
+.precios{
+  grid-area: precios;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cakeGrande{
+  grid-area: cpg;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cakeChoco{
+  grid-area: cp;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.muffins{
+  grid-area: cmg;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+}
+
+
+.fa-whatsapp{
+  color: rgb(6, 148, 6);
+  font-size: 2rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+header,footer{
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+.footer{
+  background-color:#b2edee ;
+  gap: 30px;
+
+  .flex{
+    display: flex;
+    div,section {
+      width: 400px;
+      height: 100px;
+      justify-content: space-between;
+      margin-top: 15px;
+    
+    }
+  }
+  ul{
+    padding-top: 10px;
+  }
+  .form{
+    padding-top: 10px;
+  }
+  
+
+}
+.contenido{
+  flex-direction: column;
+
+}
+
+.fa-instagram{
+  font-size: 2rem;
+}
+.fa-facebook{
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.copyright{
+text-align: right;
+}
+@media screen and { max
+  .footer{
+    display: inline;
+  }
+}
