@@ -38,9 +38,11 @@ h1{
   }
   
   a {
-    color: rgb(16, 17, 18);
+    color: rgb(9, 13, 17);
     display: inline-block;
     margin-top: 15px;
+    font-size: 1em;
+    font-family: "Playwrite DE Grund", cursive;
   }
   .navegacion{
     display: flex;
@@ -79,42 +81,65 @@ padding: 10px;
 }
 .Especialidades{
   a {
-    color: black;
-    font-size: 1rem;
+  border: 2px solid black;
+    border-radius: 5px;
   display: inline-block;
 
+
+  }
+  input{
+font-family: "Playwrite DE Grund", cursive;
+background: bisque;
   }
 }
 .tortas{
   /*width: 300px;*/
-  height: 300px;
+  height: 70vh;
   margin: 0 auto;
-  padding: 20px;
-
+  padding: 40px;
   background-image: url(../assets/imagenes/delicious-sweet-cake-with-strawberries-basier-plate.jpg) ;
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position:center center;
+  border: 2px solid black;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
 }
 .tartas{
-  height: 300px;
+  height: 70vh;
   background-image: url(../assets/imagenes/pexels-solodsha-8104732.jpg);
   background-size: cover;  
   background-position: center;
+  border: 2px solid black;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
 }
 .muffins{
-  height: 300px;
+  height: 70vh;
   background-image: url(../assets/imagenes/pexels-valeriya-14105.jpg);
   background-size: cover;  
   background-position: center;
+  border: 2px solid black;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
+      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
 }
-
+/*GALERIA*/
 .tamanioTortas{
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  object-fit: cover;
   
     .items{
       width: 250px;
@@ -134,9 +159,10 @@ padding: 10px;
     }
 
 }
+/* INICIO*/
 .catering{
 
-  width: 50%;
+  width: 80vh;
   margin: 0 auto;
   gap: 20px;
   padding: 30px;
@@ -173,7 +199,7 @@ padding: 10px;
   height: 100%;
   object-fit: cover;
 }
-.muffins{
+.muffinsCakes{
   grid-area: cmg;
   width: 100%;
   height: 100%;
@@ -181,13 +207,13 @@ padding: 10px;
 }
 }
 
-
+/*footer*/
 .fa-whatsapp{
   color: rgb(6, 148, 6);
   font-size: 2rem;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 50px;
 }
 header,footer{
   ul{
@@ -198,28 +224,40 @@ header,footer{
   }
 }
 .footer{
+  
   background-color:#b2edee ;
   gap: 30px;
+  padding: 30px;
+  align-items: center;
+
+}
 
   .flex{
     display: flex;
-    div,section {
-      width: 400px;
-      height: 100px;
-      justify-content: space-between;
-      margin-top: 15px;
+    justify-content: space-between;
+    padding: 25px;
+  
+  
+  div,section {
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    
+    justify-content: space-between;
+    flex-direction: column;
+  
     
     }
-  }
+  
   ul{
     padding-top: 10px;
   }
   .form{
-    padding-top: 10px;
+    padding-top: 5px;
+    
   }
-  
-
 }
+  
 .contenido{
   flex-direction: column;
 
@@ -236,5 +274,42 @@ header,footer{
 .copyright{
 text-align: right;
 }
+
+@media screen and (max-width :768px) {
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    .navHeader{
+      
+      .ulHeader{
+        display: flex;
+      width: 100%;
+        justify-content: space-between;
+    
+      }
+    }
+    
+  }
+  .flex {
+    height: initial;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+
+    } 
+
+  
+    
+  
+    
+  }
+  
+  
+
+
+  
+
 
 
