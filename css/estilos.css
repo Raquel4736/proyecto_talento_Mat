@@ -35,37 +35,18 @@ h1{
   }
   .pasteleria{
     color:rgb(8, 30, 46);
+    font-family: "Playwrite DE Grund", cursive;
+
   }
+  
+  
   
   a {
-    color: rgb(9, 13, 17);
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 1em;
     font-family: "Playwrite DE Grund", cursive;
-  }
-  .navegacion{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .navHeader{
-      width: 50%;
-      .ulHeader{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    
-      }
-    }
-    
-  
-  }
-
-  
-  
+    color: black;
 
 }
-
+}
 .somos{
   font-size: 1rem;
 }
@@ -79,11 +60,35 @@ padding: 10px;
 .muffins1{
   margin-top: 50px;
 }
-.Especialidades{
+
+.carousel-item{
+  justify-content: center;
+
+
+  height: 90vh;
+  .carousel-item img{
+    width: 100%;
+  
+    object-fit: cover;
+  }
+  h5{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  p{
+    color: rgb(0, 0, 0);
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
   a {
   border: 2px solid black;
     border-radius: 5px;
   display: inline-block;
+  
 
 
   }
@@ -92,46 +97,8 @@ font-family: "Playwrite DE Grund", cursive;
 background: bisque;
   }
 }
-.tortas{
-  /*width: 300px;*/
-  height: 70vh;
-  margin: 0 auto;
-  padding: 40px;
-  background-image: url(../assets/imagenes/delicious-sweet-cake-with-strawberries-basier-plate.jpg) ;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position:center center;
-  border: 2px solid black;
-      padding: 30px;
-      border-radius: 5px;
-      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
-      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
-      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
-}
-.tartas{
-  height: 70vh;
-  background-image: url(../assets/imagenes/pexels-solodsha-8104732.jpg);
-  background-size: cover;  
-  background-position: center;
-  border: 2px solid black;
-      padding: 30px;
-      border-radius: 5px;
-      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
-      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
-      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
-}
-.muffins{
-  height: 70vh;
-  background-image: url(../assets/imagenes/pexels-valeriya-14105.jpg);
-  background-size: cover;  
-  background-position: center;
-  border: 2px solid black;
-      padding: 30px;
-      border-radius: 5px;
-      box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
-      -webkit-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);
-      -moz-box-shadow: 1px 13px 59px -7px rgba(0,0,0,0.72);;
-}
+
+
 /*GALERIA*/
 .tamanioTortas{
 
@@ -275,37 +242,11 @@ header,footer{
 text-align: right;
 }
 
-@media screen and (max-width :768px) {
-.navegacion{
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    .navHeader{
-      
-      .ulHeader{
-        display: flex;
-      width: 100%;
-        justify-content: space-between;
-    
-      }
-    }
-    
-  }
-  .flex {
-    height: initial;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    row-gap: 20px;
 
-    } 
+
 
   
     
-  
-    
-  }
-  
   
 
 

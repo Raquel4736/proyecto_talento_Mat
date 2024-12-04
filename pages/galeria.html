@@ -6,22 +6,42 @@
     <title>Galeria</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/f863acd789.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="header" id="galeria">
-        <div class="navegacion">
-        <img src="../assets/imagenes/mollete (1).png" alt="" width="5% ">
-        <nav class="navHeader">
-            <ul class="ulHeader">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./carrito.html"><i class="fas fa-cart-plus"></i></a></li>
-            </ul>
+    <header class="header" id="header">
+        <h1>
+            <span class="nombre_grande">Mat</span>
+            <div class="pasteleria">Pasteleria artesanal hasta tu hogar</div>
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-ligt-blue  ">
+            <div class="container-fluid">
+            <a class="navbar-brand"  href="#">
+                    <img src="../assets/imagenes/mollete (1).png " alt="Logo de muffins de color negro con corazon en el centro" width="15% ">
+                        </>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./carrito.html"><i class="fas fa-cart-plus"></i></a>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
-        </div>
-    </header>
+        </header>
     <main>
         <h1>Nuestros Productos</h1>
         <h1>Tortas</h1>
@@ -161,6 +181,7 @@
 
 </section>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>   
 </body>
 
 </html>

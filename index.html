@@ -13,27 +13,39 @@
         <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body class="body">
-        <div id="top">
         <header class="header" id="header">
         <h1>
             <span class="nombre_grande">Mat</span>
-            <div class="pasteleria">Pasteleria artesanal hasta tu hogar</div>
+            <p class="pasteleria">Pasteleria artesanal hasta tu hogar</p>
         </h1>
-        <div class="navegacion">
-            <a href="index.html">
-                <img src="./assets/imagenes/mollete (1).png" alt="Logo de muffins de color negro con corazon en el centro" width="15% ">
-                    </a>
-            <nav class="navHeader">
-                <ul class="ulHeader">
-                    <li class="listaItem"><a href="index.html">Inicio</a></li>
-                    <li class="listaItem"><a href="./pages/galeria.html">Galeria</a></li>
-                    <li class="listaItem"><a href="./pages/contacto.html">Contacto</a></li>
-                    <li class="listaItem"><a href="./pages/carrito.html"><i class="fas fa-cart-plus"></i></a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid  ">
+            <a class="navbar-brand"  href="./index.html">
+                    <img src="./assets/imagenes/mollete (1).png" alt="Logo de muffins de color negro con corazon en el centro" width="15% ">
+                    </>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav "> 
+                    <a class="nav-link active " aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/carrito.html"><i class="fas fa-cart-plus" alt="Icono del carrito de compras"></i></a>
+                </li>
+                </ul>
             </div>
+            </div>
+
+        </nav>
         </header>
-        </div>
+    
         <main>
             <section>
                 <h1>Quienes somos</h1>
@@ -53,35 +65,58 @@
             <h1>Nuestro trabajo</h1>
             "<iframe width="250" height="250" src="https://www.youtube.com/embed/MfU9JOyg174" title="ALFAJORES DE MAICENA masa fácil y económica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </section>
-            <section class="Especialidades">
-                <h1>Nuestras Especialidades</h1>
-                <h2>tortas</h2>
-                <div class="tortas">
-                <a href="./pages/galeria.html"> <input type="submit" value="Hacer Pedido"></a>
-                
+            <h1>Nuestras Especialidades</h1>
+            <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/imagenes/torta-carrousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tortas</h5>
+                        <p>Nuestras tortas son la mejor opción para celebrar eventos y fiestas.</p>
+                        <a href="./pages/galeria.html"> <input type="submit" value="Hacer Pedido"></a>
+                    </div>
                 </div>
-                <h2>tartas</h2>
-                <div class="tartas">
-                    <a href="./pages/galeria.html"> <input type="submit" value="Hacer Pedido"></a>
+                <div class="carousel-item">
+                    <img src="./assets/imagenes/tarta-carrousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tartas</h5>
+                        <p>Nuestra variedad de tartas para todo tipo de evento</p>
+                        <a href="./pages/galeria.html"> <input type="submit" value="Hacer Pedido"></a>
+                    </div>
                 </div>
-                <h2>muffins</h2>
-                <div class="muffins">
-                    <a href="./pages/galeria.html"> <input type="submit" value="Hacer Pedido"></a>
-                
+                <div class="carousel-item">
+                    <img src="./assets/imagenes/cupcakes-carrousel.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cupcakes</h5>
+                        <p>Nuestras cupcakes son la mejor opción para celebrar eventos y fiestas.</p>
+                        <a href="./pages/galeria.html"> <input type="submit" value="Hacer Pedido"></a>
+                    </div>
+                </div>
+                </div>
+            
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             </section>
-            <h1> Servicio de Catering</h1>
-            <section class="catering">
-        
-                    <img  class="postres" src="./assets/imagenes/postres.jpg" alt="">
-                
-                    <img class="precios" src="./assets/imagenes/precios.jpg" alt="">
-                
-                    <img class="muffinsCakes" src="./assets/imagenes/cake-muffins.jpg" alt="">
-                
-                    <img  class="cakeChoco" src="./assets/imagenes/cake-pops-choco.jpg" alt="">
-                
-                    <img class="cakeGrande" src="./assets/imagenes/cake-popsg.jpg" alt="">
-            </section>
+            <h1>Servicio de Catering</h1>
+            <div class="catering">
+                <img class="cakeGrande" src="./assets/imagenes/cake-muffins.jpg" alt="Muffins y pastelitos">
+                <img class="precios" src="./assets/imagenes/precios.jpg" alt="Tabla de precios">
+                <img class="muffinsCakes" src="./assets/imagenes/cake-popsg.jpg" alt="Cake pops grandes">
+                <img class="cakeChoco" src="./assets/imagenes/cake-pops-choco.jpg" alt="Cake pops de chocolate">
+                <img class= "postres" src="./assets/imagenes/postres.jpg" alt="Postres variados">
+                    
+            
+            
+
+            </div>  
         </main>
         <footer class="footer"> 
             <section class="flex">
