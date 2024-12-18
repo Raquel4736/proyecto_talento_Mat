@@ -19,7 +19,7 @@
             <div class="container-fluid ">
                 <a class="navbar-brand"  href="#">
                     <img src="../assets/imagenes/mollete (1).png" alt="Logo de muffins de color negro con corazon en el centro" width="15% ">
-                        </>
+                </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,9 +43,26 @@
         </nav>
         </header>
     <main>
-        <h1>Tus Compras</h1>
-        <div class="carrito">
-        </div>
+    
+        <section class="container">
+            <h1>Tus Compras</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaCarrito">
+
+                </tbody>
+            </table>
+                <div class="mt-3">
+                    <h5>Total: $ <span id="totalCarrito">0.00</span></h5>
+
+                </div>
+        
+        </section>
     </main>
     <footer class="footer">
         <section class="flex">
@@ -114,5 +131,8 @@
 
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>   
+    <script src="../js/index.js"></script>  
+    <script src="../js/agregar_carrito.js"></script>
+    <script src="../js/mostrar_carrito.js"></script>
 </body>
 </html>

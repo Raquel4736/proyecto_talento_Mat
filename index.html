@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body class="body">
-        <header class="header" id="header">
+        <header class="header" id="header" >
         <h1>
             <span class="nombre_grande">Mat</span>
             <p class="pasteleria">Pasteleria artesanal hasta tu hogar</p>
@@ -21,15 +21,17 @@
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid  ">
             <a class="navbar-brand"  href="./index.html">
-                    <img src="./assets/imagenes/mollete (1).png" alt="Logo de muffins de color negro con corazon en el centro" width="15% ">
-                    </>
+                    <img src="./assets/imagenes/mollete (1).png" alt="Logo de muffins de color negro con corazon en el centro" width="10% ">
+                </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    
             <div class="collapse navbar-collapse" id="navbarNav" >
                 <ul class="navbar-nav "> 
-                    <a class="nav-link active " aria-current="page" href="./index.html">Inicio</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="./index.html">Inicio</a>
+                    </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/galeria.html">Galeria</a>
                 </li>
@@ -37,7 +39,7 @@
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/carrito.html"><i class="fas fa-cart-plus" alt="Icono del carrito de compras"></i></a>
+                    <a class="nav-link" href="./pages/carrito.html"><i class="fas fa-cart-plus"></i></a>
                 </li>
                 </ul>
             </div>
@@ -66,7 +68,7 @@
             "<iframe width="250" height="250" src="https://www.youtube.com/embed/MfU9JOyg174" title="ALFAJORES DE MAICENA masa fácil y económica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </section>
             <h1>Nuestras Especialidades</h1>
-            <section>
+            <section class="Especialidades">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -185,6 +187,9 @@
 
     </section>
         </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>   
+    <script src="./js/bootstrap.bundle.min.js"></script>  
+    <script src="./js/index.js"></script> 
+    <script src="./js/agregar_carrito.js"></script> 
+    <script src="./js/mostrar_carrito.js"></script> 
     </body>
 </html>
