@@ -56,11 +56,16 @@ h1{
   margin-right: 0;
 color: black;
 }
-
-
-
-
 }
+
+.container{
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  
+  }
+  
+  
 .somos{
   font-size: 1rem;
 }
